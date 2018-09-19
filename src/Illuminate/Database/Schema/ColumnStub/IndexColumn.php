@@ -5,7 +5,7 @@ namespace Illuminate\Database\Schema\ColumnStub;
 abstract class IndexColumn extends CommonColumn
 {
     /**
-     * @param string $algorithm
+     * @param string|null $algorithm
      * @return static
      */
     abstract public function algorithm(string $algorithm = null);

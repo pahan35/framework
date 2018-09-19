@@ -11,7 +11,7 @@ abstract class DecimalColumn extends CommonColumn
     abstract public function places(int $places = null);
 
     /**
-     * @param int $total
+     * @param int|null $total
      * @return static
      */
     abstract public function total(int $total = null);

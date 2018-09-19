@@ -59,7 +59,7 @@ abstract class CommonColumn
     abstract public function onUpdate(string $onUpdate);
 
     /**
-     * @param bool $nullable
+     * @param bool|null $nullable
      * @return static
      */
     abstract public function nullable(bool $nullable = true);
